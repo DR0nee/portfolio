@@ -1,3 +1,29 @@
+body, html {
+  font-size: 18px;
+}
+
+a {
+  color: black;
+}
+
+#portfolio {
+  background-color: #eee;
+}
+
+.row img {
+  margin: 20px 0;
+}
+
+.img-responsive {
+    width: 100%;
+}
+
+footer {
+  background: black;
+  color: lightgray;
+  padding: .6em;
+}
+
 @media (min-width: 992px) {
  .navbar-expand-lg .navbar-collapse {
    justify-content: flex-end;

@@ -3,19 +3,23 @@
   <head>
     <meta charset="utf-8">
     <meta name="content" content="width=device-width">
-    <title>Alexis: Web Developer</title>
+    <title>Krissssss: Web Developer</title>
     <link rel="stylesheet" href="resources/css/reset.css">
+    <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
      crossorigin="anonymous">
+     <!-- Font Awesome -->
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+     <!-- Custom stylesheet -->
      <link href="resources/css/custom.css" rel="stylesheet" type="text/css">
   </head>
 
   <body>
 
     <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Alexis Web Development</a>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Torok Web Development</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -48,8 +52,8 @@
     <main>
       <section>
         <div class="jumbotron jumbotron-fluid">
-          <div class="container">
-            <h1 class="display-4">Alexis: Web Developer</h1>
+          <div class="fluid-container text-center">
+            <h1 class="display-4">Krissssss: Web Developer</h1>
             <p class="lead">Web developer with a passion for creating beautiful, responsive websites.</p>
             <p class="lead">
               <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
@@ -61,27 +65,118 @@
         <div class="fluid-container">
           <h1 class="text-center sect-title">Technial skills</h1>
 
-
           <div class="row">
-            <div class="col-sm-4">
-
+            <!-- Frontend Column -->
+            <div class="col-sm-4 skill text-center">
+              <span aria-hidden="true" class="fa fa-photo fa-5x"></span>
+              <h3>Frontend</h3>
+              <p>Bootstrap</p>
+              <p>Sass</p>
+              <p>CSS3</p>
             </div>
-
-            <div class="col-sm-4">
-
+            <div class="col-sm-4 skill text-center">
+              <span aria-hidden="true" class="fa fa-cog fa-5x"></span>
+              <h3>Backend</h3>
+              <p>SQL</p>
+              <p>MongoDB</p>
+              <p>Express.js</p>
             </div>
-
-            <div class="col-sm-4">
-
+            <!-- Design Column -->
+            <div class="col-sm-4 skill text-center">
+              <span aria-hidden="true" class="fa fa-pencil fa-5x"></span>
+              <h3>Design</h3>
+              <p>Photoshop</p>
+              <p>Illustrator</p>
+              <p>InDesign</p>
             </div>
           </div>
         </div>
       </section>
-      <section></section>
-      <section></section>
+      <!-- Portfolio: 3x3 Grid with responsive images -->
+    <section id="portfolio">
+      <div class="fluid-container">
+        <h1 class="text-center sect-title">Portfolio</h1>
+
+        <!-- Row 1 -->
+        <div class="row">
+          <div class="col-sm-4">
+            <img class="img-responsive" src="resources/images/pexels-photo-326424.jpeg">
+            <h4 class="text-center"><a href="#">Dasmoto</a></h4>
+          </div>
+          <div class="col-sm-4">
+            <img class="img-responsive" src="resources/images/pexels-photo-326424.jpeg">
+            <h4 class="text-center"><a href="#">My Times</a></h4>
+          </div>
+          <div class="col-sm-4">
+            <img class="img-responsive" src="resources/images/pexels-photo-326424.jpeg">
+            <h4 class="text-center"><a href="#">Tea Cozy</a></h4>
+          </div>
+        </div>
+        <!-- Row 2 -->
+        <div class="row">
+          <div class="col-sm-4">
+            <img class="img-responsive" src="resources/images/pexels-photo-326424.jpeg">
+            <h4 class="text-center"><a href="#">Secret Agent Supply</a></h4>
+          </div>
+          <div class="col-sm-4">
+            <img class="img-responsive" src="resources/images/pexels-photo-326424.jpeg">
+            <h4 class="text-center"><a href="#">Tortoiseshell Optics</a></h4>
+          </div>
+          <div class="col-sm-4">
+            <img class="img-responsive" src="resources/images/pexels-photo-326424.jpeg">
+            <h4 class="text-center"><a href="#">Colmar</a></h4>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contact -->
+      <section id="contact">
+        <div class="fluid-container">
+          <!-- Contact Heading -->
+          <h1 class="text-center">Contact</h1>
+          <!-- 1x3 Bootstrap grid for contact icons, with multiple column sizes for different breakpoints -->
+          <div class="row">
+                <!-- Twitter Column -->
+            <div class="col-sm-6 col-lg-3">
+              <div class="contact text-center">
+                <a href="#" >
+                  <span aria-hidden="true" class="fa fa-twitter fa-5x text-center"></span>
+                </a>
+              </div>
+            </div>
+
+              <!-- GitHub Column -->
+            <div class="col-sm-6 col-lg-3">
+              <div class="contact text-center">
+                <a href="#" >
+                  <span aria-hidden="true" class="fa fa-github fa-5x text-center"></span>
+                </a>
+              </div>
+            </div>
+
+            <!-- Email Column-->
+            <div class="col-sm-6 col-lg-3">
+              <div class="contact text-center">
+                <a href="#" >
+                  <span aria-hidden="true" class="fa fa-envelope  fa-5x text-center"></span>
+                </a>
+              </div>
+            </div>
+
+            <!-- LinkedIn Column-->
+            <div class="col-sm-6 col-lg-3">
+              <div class="contact text-center">
+                <a href="#" >
+                  <span aria-hidden="true" class="fa fa-linkedin  fa-5x text-center"></span>
+                </a>
+              </div>
+            </div>
+          </div>
+      </div>
+      </section>
     </main>
 
-    <footer></footer>
+    <footer class="text-right">Copyright &copy; 2017 Alexis. All rights reserved.</footer>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
